@@ -9,44 +9,24 @@
 <body>
 
 
-
-    <div class="signup-container">
-        <div class="signup-form">
-            <h2>Naya Account Banayein</h2>
-            <p>Aaj hi join karein aur shuru karein!</p>
-            
-            <form id="registrationForm">
-                <div class="input-group">
-                    <input type="text" id="username" placeholder="Full Name" required>
-                </div>
-                
-                <div class="input-group">
-                    <input type="email" id="email" placeholder="Email Address" required>
-                </div>
-                
-                <div class="input-group">
-                    <input type="password" id="password" placeholder="Password" required>
-                </div>
-
-                <div class="input-group">
-                    <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
-                </div>
-
-                <div class="checkbox-group">
-                    <input type="checkbox" id="terms" required>
-                    <label for="terms">Main terms aur conditions se sehmat hoon.</label>
-                </div>
-
-                <button type="submit" class="btn-signup">Sign Up</button>
-            </form>
-
-            <div class="footer-text">
-                Pehle se account hai? <a href="#">Login karein</a>
+    <div class="login-card">
+        <h2>Welcome Back!</h2>
+        <p>Apne account mein login karein</p>
+        
+        <form>
+            <div class="input-box">
+                <input type="email" placeholder="Email Address" id="semail" required>
             </div>
-        </div>
+            
+            <div class="input-box">
+                <input type="password" placeholder="Password" id="spassword" required>
+            </div>
+
+            <button type="submit" class="login-btn">Login</button>
+        </form>
     </div>
 
 
-    <script src="index.js"></script>
+    <script src="index.js"  type="module"></script>
 </body>
 </html>
